@@ -1,0 +1,280 @@
+/** Add css rules here for your application. */
+.Main {
+	/*background-image: url("images/web_page/KI-Memories-lace-cardstock-black.jpg");	*/
+	width: 100%;	
+	
+}
+
+BODY
+{
+	/*background-image: url("images/web_page/KI-Memories-lace-cardstock-black.jpg");	*/
+	width: 100%;	
+		background-image: url("images/web_page/seamless_pattern_redfloralsmall.gif");
+}
+
+/** Example rules used by the template application (remove for your app) */
+h1 
+{
+  font-size: 3em;
+  font-weight: bold;
+  color: #a60000;
+  margin: 10px 0px 10px;
+  text-align: center;  
+  font-family: "Vivaldi",serif;	
+  
+ /* background-image: url("images/web_page/preview_large2.jpg");*/
+ /*background-image: url("images/web_page/seamless_pattern_redfloralsmall2.png");*/
+  
+}
+
+h2
+{
+	font-size: 2em;
+  font-weight: bold;
+  color: #a60000;
+  margin: 10px 0px 10px;
+  text-align: left;
+  font-family: serif;  
+  font-family: "Vivaldi",serif;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox 
+{
+  width: 200px;
+  background-color: black;
+  color: #a60000;
+  border: 5px solid;
+}
+
+.dialogVPanel 
+{
+  margin: 5px;
+  font-family: "Vivaldi",serif;
+  text-align: center;
+}
+
+.successLable
+{
+	color: #a60000;	
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#siteButton 
+{
+  margin: 15px 6px 6px; 
+  font-weight: bold;
+  background-image: url("images/web_page/greyButton.gif");
+}
+
+
+
+
+
+
+.Heading
+{
+	
+	
+	height: 180px;
+	width: 100%;
+	/*background-image: url("images/web_page/KI-Memories-lace-cardstock-black.jpg");*/
+	
+	
+	
+}
+
+.menuBar
+{
+	background-image: url("images/web_page/menu.png");	
+	
+	height: 35px;
+	width: 1024px;
+	cursor: pointer;
+	
+	
+}
+
+.menuBar .gwt-TabBarItem-selected
+{
+	background-color: red;
+	border: 3px solid white;
+	color: #a60000;
+	font-weight: bold;
+	
+}
+
+.menuBar .gwt-TabBarItem
+{
+	background-color: black;
+	color: white;
+	font-weight: normal;
+	padding: 3px 15px 3px 15px;
+	
+}
+
+
+.contentPanel
+{
+	height: 100%;
+	width: 1024px;
+	
+	
+}
+
+.mainPanel
+{	
+/*	background-image: url("images/web_page/KI-Memories-lace-cardstock-black.jpg");	*/
+/*	background-image: url("images/web_page/seamless_pattern_redfloralsmall2.png");*/
+	
+}
+
+
+.Content
+{			
+	width: 664px;
+	height: 100%;
+	min-height: 500px;
+	height: 500px;
+	font-family: cursive;
+	/*background-image: url("images/web_page/seamless_pattern_redfloralsmall2.png");*/
+	
+	padding-left: 15px;
+	padding-right: 15px;	
+	
+	
+	
+	/*background-color: white;
+	height: 100%;	
+	font-family: sans-serif;
+	width: 1024px;*/
+	
+/*	border-left: 2px solid #A60000;
+	border-right: 2px solid #A60000;*/
+}
+
+.infoTable
+{
+	
+}
+
+
+.infoTable th
+{
+	color: #a60000;	
+	font-family: "Vivaldi",cursive;	
+	font-size: 24px;
+}
+
+
+
+
+A 
+{
+	color: black;
+	font-weight: bold;
+	width: 160px;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 2px 10px 2px 10px;
+	
+}
+
+A:active 
+{
+	color: #a60000;
+}
+
+A:hover 
+{
+	background-color: #a60000;
+	font-weight: bold;
+	
+}
+
+P 
+{
+	text-align: justify;
+}
+
+.uc
+{
+	width: 180px;
+	float: right;
+	position: absolute;
+}
+
+
+.leftDiv
+{
+	/*background-image: url("images/web_page/KI-Memories-lace-cardstock-black.jpg");*/
+	/*background-image: url("images/web_page/seamless_pattern_redfloralsmall.gif");*/
+	width: 100%;
+	height: 100%;
+	float: left;
+	/*position: fixed;*/
+	z-index: -1;
+	/*background-repeat: repeat-y;*/
+	
+	
+	
+}
+
+
+.rightDiv
+{
+	/*background-image: url("images/web_page/KI-Memories-lace-cardstock-black.jpg");*/
+	background-image: url("images/web_page/seamless_pattern_redfloralsmall.gif");
+	
+	width: 100%;
+	height: 100%;
+	float: right;
+	position: fixed;
+	z-index: -1;
+	
+	left: 85%;
+	
+	background-repeat: repeat-y;
+}
+
+
+.leftPanel
+{
+	background-color: white;
+	height: 100%;
+	width: 160px;	
+	/*background-image: url("images/web_page/seamless_pattern_redfloralsmall2.png");*/
+	
+	border-left: 2px solid #A60000;	
+	
+}
+
+
+.rightPanel
+{
+	background-color: white;
+	height: 100%;	
+	width: 200px;
+	align: left;
+/*	background-image: url("images/web_page/seamless_pattern_redfloralsmall2.png");*/
+	
+	border-right: 2px solid #A60000;	
+}
+
+
+.bottomBar
+{
+	/*background-image: url("images/web_page/menu.png");*/
+	background-repeat: no-repeat;
+	background: white;
+	border-bottom: 2px solid #A60000;
+}

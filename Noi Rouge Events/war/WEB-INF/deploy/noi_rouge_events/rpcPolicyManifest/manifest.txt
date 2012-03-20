@@ -1,0 +1,2 @@
+# Module noi_rouge_events
+# RPC service class, partial path of RPC policy file

@@ -1,0 +1,2 @@
+serviceClass: com.noirougeevents.com.client.NoiRougeService
+path: B855FD6F5DE074CD080CF2E0F7C79F2B.gwt.rpc
